@@ -1,0 +1,24 @@
+{
+  "name": "psi",
+  "version": "1.0.0",
+  "description": "Exemplo de utilizacao do plugin psi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/addyosmani/psi"
+  },
+  "author": "Yan Magalhaes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/addyosmani/psi/issues"
+  },
+  "homepage": "https://github.com/addyosmani/psi",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "save": "^2.1.0"
+  },
+  "dependencies": {}
+}
