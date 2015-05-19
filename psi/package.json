@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/addyosmani/psi"
+    "url": "https://github.com/YanMagale/gulp-utilization/tree/master/psi"
   },
   "author": "Yan Magalhaes",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/addyosmani/psi/issues"
+    "url": "https://github.com/YanMagale/gulp-utilization/tree/master/psi"
   },
-  "homepage": "https://github.com/addyosmani/psi",
+  "homepage": "https://github.com/YanMagale/gulp-utilization/tree/master/psi",
   "devDependencies": {
     "gulp": "^3.8.11",
-    "save": "^2.1.0"
+    "psi": "^1.0.2"
   },
   "dependencies": {}
 }

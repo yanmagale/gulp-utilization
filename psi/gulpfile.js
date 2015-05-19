@@ -4,7 +4,7 @@ var psi = require('psi');
 var site = 'http://www.terra.com.br/';
 var key = '';
 var strategy = 'desktop';
-
+var array_sites = ['http://www.terra.com.br/', 'http://www.globo.com/'];
 /*Utilizando o modulo PSI. */
 
 //1 - Uma utilizacao mais simples possivel
@@ -50,4 +50,21 @@ gulp.task('output', function () {
 	console.log(err); 
     });
 });
+
+
+// 3 - Obtendo o report de diversas paginas ao mesmo tempo
+gulp.task('output-multiple', function () {
+    array_sites.forEach(function(page){
+	return psi.output(page, {
+		nokey: 'true', 
+		strategy: strategy,
+		locale: 'pt_BR', 
+		threshold: 90 
+    	},function (err) {
+		console.log(err); 
+    	});
+    });		
+    
+});
+
 
