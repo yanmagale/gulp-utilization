@@ -1,0 +1,169 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'instal', '--global', 'psi' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'psi', null ]
+6 verbose cache add name=undefined spec="psi" args=["psi",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'psi',
+7 verbose parsed url   path: 'psi',
+7 verbose parsed url   href: 'psi' }
+8 silly lockFile 7063e748-psi psi
+9 verbose lock psi /home/yan/.npm/7063e748-psi.lock
+10 silly lockFile 7063e748-psi psi
+11 silly lockFile 7063e748-psi psi
+12 verbose addNamed [ 'psi', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 2231e5d6-psi psi@
+15 verbose lock psi@ /home/yan/.npm/2231e5d6-psi.lock
+16 silly addNameRange { name: 'psi', range: '*', hasData: false }
+17 verbose request where is /psi
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 43b81e949a59efbf
+20 verbose url raw /psi
+21 verbose url resolving [ 'https://registry.npmjs.org/', './psi' ]
+22 verbose url resolved https://registry.npmjs.org/psi
+23 verbose request where is https://registry.npmjs.org/psi
+24 info trying registry request attempt 1 at 01:16:25
+25 verbose etag "AZTM5T9U6K5UNRXME7C4VKNNY"
+26 http GET https://registry.npmjs.org/psi
+27 http 304 https://registry.npmjs.org/psi
+28 silly registry.get cb [ 304,
+28 silly registry.get   { date: 'Mon, 18 May 2015 04:16:27 GMT',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     'cache-control': 'max-age=60',
+28 silly registry.get     etag: '"AZTM5T9U6K5UNRXME7C4VKNNY"',
+28 silly registry.get     age: '0',
+28 silly registry.get     connection: 'keep-alive',
+28 silly registry.get     'x-served-by': 'cache-jfk1024-JFK',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1431922587.283578,VS0,VE364',
+28 silly registry.get     vary: 'Accept' } ]
+29 verbose etag https://registry.npmjs.org/psi from cache
+30 silly addNameRange number 2 { name: 'psi', range: '*', hasData: true }
+31 silly addNameRange versions [ 'psi',
+31 silly addNameRange   [ '0.0.1',
+31 silly addNameRange     '0.0.2',
+31 silly addNameRange     '0.0.3',
+31 silly addNameRange     '0.0.4',
+31 silly addNameRange     '0.1.0',
+31 silly addNameRange     '0.1.1',
+31 silly addNameRange     '0.1.2',
+31 silly addNameRange     '0.1.3',
+31 silly addNameRange     '0.1.4',
+31 silly addNameRange     '0.1.5',
+31 silly addNameRange     '0.1.6',
+31 silly addNameRange     '1.0.1',
+31 silly addNameRange     '1.0.2',
+31 silly addNameRange     '1.0.3',
+31 silly addNameRange     '1.0.4',
+31 silly addNameRange     '1.0.5',
+31 silly addNameRange     '1.0.6' ] ]
+32 verbose addNamed [ 'psi', '1.0.6' ]
+33 verbose addNamed [ '1.0.6', '1.0.6' ]
+34 silly lockFile af9dec38-psi-1-0-6 psi@1.0.6
+35 verbose lock psi@1.0.6 /home/yan/.npm/af9dec38-psi-1-0-6.lock
+36 silly lockFile af9dec38-psi-1-0-6 psi@1.0.6
+37 silly lockFile af9dec38-psi-1-0-6 psi@1.0.6
+38 silly lockFile 2231e5d6-psi psi@
+39 silly lockFile 2231e5d6-psi psi@
+40 silly resolved [ { name: 'psi',
+40 silly resolved     version: '1.0.6',
+40 silly resolved     description: 'PageSpeed Insights with reporting',
+40 silly resolved     author:
+40 silly resolved      { name: 'Addy Osmani',
+40 silly resolved        email: 'addyosmani@gmail.com',
+40 silly resolved        url: 'addyosmani.com' },
+40 silly resolved     bin: { psi: 'cli.js' },
+40 silly resolved     preferGlobal: true,
+40 silly resolved     engines: { node: '>=0.10.0' },
+40 silly resolved     repository: { type: 'git', url: 'https://github.com/addyosmani/psi' },
+40 silly resolved     license: 'Apache-2.0',
+40 silly resolved     scripts: { test: 'mocha test' },
+40 silly resolved     files: [ 'cli.js', 'index.js', 'lib' ],
+40 silly resolved     keywords:
+40 silly resolved      [ 'pagespeed',
+40 silly resolved        'insights',
+40 silly resolved        'speed',
+40 silly resolved        'page',
+40 silly resolved        'website',
+40 silly resolved        'measure',
+40 silly resolved        'optimize',
+40 silly resolved        'size' ],
+40 silly resolved     dependencies:
+40 silly resolved      { chalk: '^1.0.0',
+40 silly resolved        googleapis: '^1.1.0',
+40 silly resolved        'humanize-url': '^1.0.0',
+40 silly resolved        lodash: '^3.2.0',
+40 silly resolved        meow: '^3.0.0',
+40 silly resolved        'object-assign': '^2.0.0',
+40 silly resolved        'prepend-http': '^1.0.0',
+40 silly resolved        'pretty-bytes': '^1.0.1',
+40 silly resolved        repeating: '^1.1.1',
+40 silly resolved        'sort-on': '^1.0.0',
+40 silly resolved        'update-notifier': '^0.3.0' },
+40 silly resolved     devDependencies: { mocha: '^2.0.1' },
+40 silly resolved     gitHead: '931e552e1c589a23667cfabfd5f78ad671de5d4a',
+40 silly resolved     bugs: { url: 'https://github.com/addyosmani/psi/issues' },
+40 silly resolved     homepage: 'https://github.com/addyosmani/psi',
+40 silly resolved     _id: 'psi@1.0.6',
+40 silly resolved     _shasum: '7e5d0d8be27bdfac067ae497a94d7d887b9c4ab4',
+40 silly resolved     _from: 'psi@',
+40 silly resolved     _npmVersion: '2.5.1',
+40 silly resolved     _nodeVersion: '0.12.0',
+40 silly resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+40 silly resolved     maintainers: [ [Object], [Object] ],
+40 silly resolved     dist:
+40 silly resolved      { shasum: '7e5d0d8be27bdfac067ae497a94d7d887b9c4ab4',
+40 silly resolved        tarball: 'http://registry.npmjs.org/psi/-/psi-1.0.6.tgz' },
+40 silly resolved     directories: {},
+40 silly resolved     _resolved: 'https://registry.npmjs.org/psi/-/psi-1.0.6.tgz',
+40 silly resolved     readme: 'ERROR: No README data found!' } ]
+41 info install psi@1.0.6 into /usr/lib
+42 info installOne psi@1.0.6
+43 verbose lib/node_modules/psi unbuild
+44 verbose tar unpack /home/yan/.npm/psi/1.0.6/package.tgz
+45 silly lockFile bf120fc0-tar-usr-lib-node-modules-psi tar:///usr/lib/node_modules/psi
+46 verbose lock tar:///usr/lib/node_modules/psi /home/yan/.npm/bf120fc0-tar-usr-lib-node-modules-psi.lock
+47 silly lockFile b6170ea2-me-yan-npm-psi-1-0-6-package-tgz tar:///home/yan/.npm/psi/1.0.6/package.tgz
+48 verbose lock tar:///home/yan/.npm/psi/1.0.6/package.tgz /home/yan/.npm/b6170ea2-me-yan-npm-psi-1-0-6-package-tgz.lock
+49 silly gunzTarPerm modes [ '775', '664' ]
+50 error Error: EACCES, mkdir '/usr/lib/node_modules/psi'
+50 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/psi']
+50 error   errno: 3,
+50 error   code: 'EACCES',
+50 error   path: '/usr/lib/node_modules/psi',
+50 error   fstream_type: 'Directory',
+50 error   fstream_path: '/usr/lib/node_modules/psi',
+50 error   fstream_class: 'DirWriter',
+50 error   fstream_stack:
+50 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+50 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+50 error      'Object.oncomplete (fs.js:108:15)' ] }
+51 error Please try running this command again as root/Administrator.
+52 error System Linux 3.13.0-52-generic
+53 error command "/usr/bin/node" "/usr/bin/npm" "instal" "--global" "psi"
+54 error cwd /home/yan/Github Projects/gulp-utilization/psi
+55 error node -v v0.10.37
+56 error npm -v 1.4.28
+57 error path /usr/lib/node_modules/psi
+58 error fstream_path /usr/lib/node_modules/psi
+59 error fstream_type Directory
+60 error fstream_class DirWriter
+61 error code EACCES
+62 error errno 3
+63 error stack Error: EACCES, mkdir '/usr/lib/node_modules/psi'
+64 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+64 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+64 error fstream_stack Object.oncomplete (fs.js:108:15)
+65 verbose exit [ 3, true ]

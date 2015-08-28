@@ -15,6 +15,7 @@ Um projeto para mostrar exemplos de utilização de plugins para o Gulp JS. Tamb
 Segue abaixo a lista dos plugins que já foram utilizados e/ou exemplificados no projeto:
 
 * [PSI - PageSpeed Insights](https://github.com/YanMagale/gulp-utilization/tree/master/psi)
+* [Gulp Watch]()
 
 
 

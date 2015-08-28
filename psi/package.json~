@@ -1,0 +1,24 @@
+{
+  "name": "psi",
+  "version": "1.0.0",
+  "description": "Exemplo de utilizacao do plugin psi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YanMagale/gulp-utilization/tree/master/psi"
+  },
+  "author": "Yan Magalhaes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YanMagale/gulp-utilization/tree/master/psi"
+  },
+  "homepage": "https://github.com/YanMagale/gulp-utilization/tree/master/psi",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "save": "^2.1.0"
+  },
+  "dependencies": {}
+}
