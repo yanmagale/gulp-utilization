@@ -8,6 +8,7 @@ Um projeto para mostrar exemplos de utilização de plugins para o Gulp JS. Tamb
 
 * [GulpJs](http://gulpjs.com/) - Site oficial.
 * [Docs - GulpJS](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md) - Documentação do Projeto.
+* [Docs - GulpJS PT-BR](https://github.com/YanMagale/gulp-docs-pt) - Documentação do Projeto em PT-BR.
 * [Plugins](http://gulpjs.com/plugins/) - Lista de plugins disponíveis.
 
 
